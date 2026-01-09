@@ -88,9 +88,9 @@ body {
     border-radius: 20px;
 }
 
-.banner-text div img {
-    width: 16px;
-    height: 16px;
+.banner-text div img, .banner-button-1 img, .banner-button-2 img {
+    width: 15px;
+    height: 15px;
 }
 
 .banner-text div p {
@@ -114,6 +114,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
+    margin: 10px 0;
 }
 
 .banner-button-container {
@@ -147,5 +148,15 @@ body {
 .banner-button-2 a, .banner-button-1 a {
    text-decoration: none;
    color: #ffffff;
-   font-size: 15px;
+   font-size: 14px;
+}
+
+.banner-button-1:hover {
+    background-color: #2caa61;
+    cursor: pointer;
+}
+
+.banner-button-2:hover {
+    cursor: pointer;
+    border: 1px solid #469165;
 }

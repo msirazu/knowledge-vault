@@ -160,3 +160,57 @@ body {
     cursor: pointer;
     border: 1px solid #469165;
 }
+
+#notes-section {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+.notes-text h2 {
+    margin: 35px 0 10px 0;
+    font-size: 40px;
+    color: #001931;
+}
+
+.notes-text p {
+    font-size: 16px;
+    margin: 0 0 25px 0;
+    color: #627382;
+}
+
+.notes-container {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.notes-card-container {
+    display: flex;
+    gap: 10px;
+}
+
+.notes-card {
+    max-width: 322px;
+    max-height: 300px;
+    background-color: #eee;
+    padding: 25px;
+}
+
+.notes-card img {
+    background-color: #F95555;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.notes-card h3 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    color: #001931;
+}
+
+.notes-card p {
+    font-size: 14px;
+    color: #627382;
+}
